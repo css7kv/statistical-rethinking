@@ -1,0 +1,5 @@
+install.packages("rstan", repos = "https://cloud.r-project.org/", dependencies = TRUE)
+library(rstan)
+install.packages(c("devtools","mvtnorm","loo","coda"),dependencies=TRUE)
+library(devtools)
+install_github("rmcelreath/rethinking",ref="Experimental")
