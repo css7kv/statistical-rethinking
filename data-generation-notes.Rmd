@@ -1,0 +1,20 @@
+---
+title: "Notes on Data Generation"
+author: "Charlotte Searle"
+date: "3/24/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Metrics we care about:
+
+* Effect size (% of Social/Display impressions that results in a search)
+* Cost per BPSI
+
+
+(1) The true effect size (% of Social/Display impressions that results in a search) is p.
+(2) Geo tests generate estimated effect sizes (95% confidence intervals) for test geos broken out by day
+(3) One day's effect size should be independent from another day's effect size. (maybe?)
